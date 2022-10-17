@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>survey</title>
-    <link rel="stylesheet" href="survey.css" />
-  </head>
 
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+</head>
+
+<body>
     <form action="https://www.google.com/">
-      <div>
+    <div align="center">
         <h1>Employee Intrests Survey Form</h1>
         <div>
-          <label for="name">Enter your name:</label>
-          <input type="text" id="name" placeholder="Name" />
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" placeholder="Name">
         </div>
+        </br>
         <div>
-          <label for="dep">Enter your <strong>department:</strong></label>
-          <input type="text" id="dep" placeholder="deparment" />
+            <label for="dep">Enter your <strong>department:</strong></label>
+            <input type="text" id="dep" placeholder="deparment">
         </div>
-        <label for="about"
-          >Tell us a <mark>little</mark> about <em>yourself:</em></label
-        >
+        <br>
+        <label for="about">Tell us a <mark>little</mark> about <em>yourself:</em></label>
         <div>
-          <textarea name="about" id="about" cols="30" rows="5"></textarea>
+            
+            <textarea name="about" id="about" cols="30" rows="5"></textarea>
         </div>
+        <br>
         <div>
-          <label for="exe">Do you <abbr>exercise</abbr> at home?</label>
-          <input type="radio" id="exe" name="ex" />
-          <label for="exe">yes</label>
-          <input type="radio" id="exe" name="ex" />
-          <label for="exe">no</label>
+
+            <label for="exe">Do you <abbr>exercise</abbr> at home?</label>
+            <input type="radio" id="exe" name="ex">
+            <label for="exe">yes</label>
+            <input type="radio" id="exe" name="ex">
+            <label for="exe">no</label>
+
         </div>
+        <br>
         <div>
-          <p>How do you like to read about your favorite topics?</p>
-          <input type="checkbox" name="cb" />Books
-          <input type="checkbox" name="cb" />Online resources
-          <input type="checkbox" name="cb" />Phone apps
-          <input type="checkbox" name="cb" />Magazines
+            <p>How do you like to read about your favorite topics?</p>
+            <input type="checkbox" name="cb">Books
+            <input type="checkbox" name="cb">Online resources
+            <input type="checkbox" name="cb">Phone apps
+            <input type="checkbox" name="cb">Magazines
         </div>
+        <br>
         <div>
-          <label for="mov">What genre of movies do you like?</label>
-          <select name="movies" id="mov">
-            <option value="1">comedy</option>
-            <option value="2">horror</option>
-            <option value="3">thriller</option>
-            <option value="4">romance</option>
-          </select>
+            <label for="mov">What genre of movies do you like?</label>
+            <select name="movies" id="mov">
+                <option value="1">comedy</option>
+                <option value="2">horror</option>
+                <option value="3">thriller</option>
+                <option value="4">romance</option>
+            </select>
         </div>
-        <button>Submit form</button>
-      </div>
+<br>
+<button>Submit form</button>
+    </div>
     </form>
-  </body>
+</body>
+
 </html>
